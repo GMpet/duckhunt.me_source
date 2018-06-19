@@ -1,6 +1,6 @@
 ---
 title: "Command list"
-date: 2018-03-14T20:00:00+02:00
+date: 2002-01-00T00:00:00+00:00
 draft: false
 
 categories: []

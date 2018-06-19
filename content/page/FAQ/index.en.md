@@ -1,6 +1,6 @@
 ---
 title: "FAQ"
-date: 2018-03-14T20:00:00+02:00
+date: 2004-01-00T00:00:00+00:00
 draft: false
 
 categories: []
