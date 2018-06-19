@@ -3,7 +3,10 @@ title: "{{ replace .Name "-" " " | title }}"
 date: {{ .Date }}
 draft: true
 
-featuredImage: ""
+gallery: [
+    '/images/picture1.jpg',
+    '/images/picture2.jpg',
+    ]
 categories: []
 tags: []
 author: ""

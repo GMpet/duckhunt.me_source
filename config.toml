@@ -1,3 +1,105 @@
-baseURL = "http://example.org/"
-languageCode = "en-us"
-title = "My New Hugo Site"
+title = "Duckhunt - A Discord Bot"
+baseURL = "https://duckhunt.me"
+theme = "bilberry-hugo-theme"
+
+enableRobotsTXT = true
+
+defaultContentLanguageInSubdir = true
+
+# Change to your content language. Supported values: en, de, es, fr, ru
+DefaultContentLanguage = "en"
+
+[languages]
+  [languages.en]
+    title = "Duckhunt - A Discord Bot"
+    weight = 1
+    [languages.en.params]
+      subtitle = "Official website of the DuckHunt Discord bot"
+  [languages.fr]
+    title = "Duckhunt - Un Bot Discord"
+    weight = 2
+    [languages.fr.params]
+      subtitle = "Site web officiel de DuckHunt, le bot discord"
+  [languages.ru]
+    title = "Duckhunt - Un Bot Discord"
+    weight = 3
+    [languages.ru.params]
+      subtitle = "Site web officiel de DuckHunt, le bot discord"
+
+
+# Enable / Disable Google Analytics statistics for your site
+googleAnalytics = ""
+
+# Enable / Disable comments on the articles via Disqus.
+disqusShortname = ""
+
+[params]
+
+  # Favicon for the browser's favorites and tabs
+  favicon = "/img/favion-1024.png" # set a favicon icon
+
+  # Custom CSS / JS modules that will be imported by the template.
+  # Files are relative to the static/ directory or a URL.
+  # Files are imported in the order they appear here, after
+  # theme.css and theme.js, respectively.
+  css_modules = ["/css/custom.css"]
+  js_modules = []
+
+  # Description and meta data for the search engines
+  author = "Arthur"
+  description = "Duckhunt is a discord game bot where you have to shot ducks to win"
+  #keywords = "blog,personal,responsive,search,font awesome,pages,posts,multilingual,highlight.js,syntax highlighting,premium,shortcuts"
+  keywords = "Discord, bot, help, game, text, duckhunt"
+
+  # How many articles should be displayed at once?
+  paginate = 6
+
+  # Enable / Disable MathJax
+  enable_mathjax    = true
+
+  # Enable / Disable algolia search
+  algolia_search    = false
+  algolia_appId     = "Y2C4RWMPXW"
+  algolia_apiKey    = "50ea7f8c41c0ad233926e0be2b769ed1"
+  algolia_indexName = "default-content"
+
+  # Header configuration
+  # if you want to use gravatar for the header image
+  gravatarEMail = ""
+
+  # set an path to the image file you want to use | overwrites gravatar
+  customImage = "/img/profile.png"
+
+  # always display the top navigation (with pages and search) on non-mobile screens
+  permanentTopNav = true
+
+  # credits line configuration
+  copyrightBy = "DuckHunt"
+  copyrightUseCurrentYear = true  # set to true to always display the current year in the copyright
+  copyrightYearOverride = "2018"
+  copyrightUrl = "https://github.com/paris-ci"
+  creditsText = "Website"
+  creditsUrl = "https://github.com/duckhunt-discord/duckhunt.me_source"
+
+  # social media profile urls for the footer links
+  facebook   = ""
+  twitter    = ""
+  googleplus = ""
+  pinterest  = ""
+  instagram  = ""
+  tumblr     = ""
+  youtube    = ""
+  vimeo      = ""
+  github     = "https://github.com/duckhunt-discord"
+  xing       = ""
+  linkedin   = ""
+
+# don't change anything here
+[taxonomies]
+  author   = "author"
+  tag      = "tags"
+  category = "categories"
+
+[outputs]
+  home = [ "HTML", "JSON" ]
+  page = [ "HTML" ]
