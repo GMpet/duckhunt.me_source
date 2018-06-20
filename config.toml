@@ -25,7 +25,11 @@ DefaultContentLanguage = "en"
     weight = 3
     [languages.ru.params]
       subtitle = "Site web officiel de DuckHunt, le bot discord"
-
+  [languages.da]
+     title = "Duckhunt - En Discord Bot"
+     weight = 4
+     [languages.da.params]
+       subtitle = "Officiel website for DuckHunt Discord Botten"
 
 # Enable / Disable Google Analytics statistics for your site
 googleAnalytics = ""
